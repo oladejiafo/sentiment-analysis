@@ -141,8 +141,7 @@ talabat_data['clean_tweet'] = tokenize_tweets
 ```
 talabat_data.head(30)
 ```       
-![Uploading image.png…]()
-
+![image](https://user-images.githubusercontent.com/69392408/206925659-a48f2a14-930e-46f6-8111-01941e8004c9.png)
 
 
 ## Visualization From Tweets Dataset
@@ -181,7 +180,8 @@ The most frequently used words are the biggest in size, and these are neither po
 This gives us hint that most tweeter users are in good standing with Talabat service across the region. 
 
 
-Let’s explore the impact of Hashtags on tweets sentiment
+**Let’s explore the impact of Hashtags on tweets sentiment**
+	
 Hashtags in twitter are synonymous with the ongoing trends on twitter at any particular point in time. 
 We will try to check whether these hashtags add any value to our sentiment analysis task, if they will help in distinguishing tweets into the different sentiments.
 
@@ -283,7 +283,9 @@ plt.ylabel('Mean Sentiment Score')
 dfg.plot(kind='bar', title='Sentiment Score', y='sentiment_score', x='clean_location', figsize=(6, 5))
 plt.show()
 ```
- 
+
+![image](https://user-images.githubusercontent.com/69392408/206904612-0299d2fd-dd2e-4d3d-8996-faa16b9bf2fa.png)
+
 
 ```
 df_output_mnt =df_output
@@ -298,10 +300,9 @@ plt.ylabel('Mean Sentiment Score')
 dfg.plot(kind='bar', title='Sentiment Score', y='sentiment_score', x='Location', figsize=(6, 5))
 plt.show()
 ```
-![image](https://user-images.githubusercontent.com/69392408/206904210-268a143c-e091-4278-b905-c0fab0980634.png)
+
+![image](https://user-images.githubusercontent.com/69392408/206925769-323b11b2-349e-4d7a-8815-bbd952d0ae5a.png)
  
-
-
 
 ## Conclusion
 
